@@ -99,7 +99,7 @@ var catView = {
         this.catNameElem.textContent = currentCat.name
         this.catImageElem.src = currentCat.imgSrc;
     }
-}
+};
 
 var catListView = {
 
@@ -141,7 +141,7 @@ var catListView = {
             this.catListElem.appendChild(elem);
         };
     }
-}
+};
 
 // make it go!
 octopus.init();
